@@ -1,0 +1,420 @@
+@charset "utf-8";
+
+html {
+	font: 12px '宋体'
+}
+
+a {
+	color: #000;
+}
+.top {
+	background-color: #F7F7F7;
+	height: 26px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.top_page {
+	width: 970px;
+	height: 26px;
+	margin: 0 auto;
+}
+
+.top_page_l {
+	line-height: 26px;
+}
+
+.top_page_r ul li {
+	line-height: 26px;
+	float: left;
+	padding-left: 10px;
+}
+
+.top_page_r ul li i {
+	display: inline-block;
+	width: 15px;
+	height: 12px;
+	background: url(../Image/spirites.fw.png);
+}
+
+.logo {
+	width: 970px;
+	height: 98px;
+	margin: 0 auto;
+}
+
+.logo_l {
+	width: 200px;
+	height: 55px;
+	margin: 24px 0 19px 10px;
+	background: url(../Image/spirites.fw.png) 0 -12px no-repeat;
+	text-indent: -1000px;
+}
+
+.logo_r {
+	width: 530px;
+	height: 41px;
+	border: 1px solid #C9C9C9;
+	margin-top: 29px;
+	background: #EEEEEE;
+}
+
+.logo_r_content {
+	margin: 5px 5px 5px 4px;
+}
+
+.logo_r_search {
+	width: 418px;
+	height: 28px;
+	border: 1px solid #A5A5A5;
+	color: #999;
+}
+
+.logo_r_btn {
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: #2F70D0;
+	font: 22px '黑体';
+}
+.nav {
+	width: 970px;
+	height: 25px;
+	margin: 0 auto;
+	border-bottom: 2px solid #0266A3;
+}
+
+.nav li {
+	padding: 0 15px 0 15px;
+	line-height: 25px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.nav li a {
+	color: #0266A3;
+}
+
+.nav li:hover {
+	background-color: #0266A3;
+}
+
+.nav li:hover a {
+	color: #fff;
+}
+
+.banner {
+	width: 970px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.subNav {
+	width: 200px;
+	height: 210px;
+}
+
+.subNav ul {
+	background-color: #EBF0F6;
+	height: 180px;
+}
+
+.subNav h2 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #0266A3;
+	color: #fff;
+	padding-left: 20px;
+}
+
+.subNav li {
+	font-size: 14px;
+	padding-top: 10px;
+	margin-left: 9px;
+}
+
+.subNav li a {
+	padding-left: 15px;
+}
+
+.icon1 {
+	display: inline-block;
+	width: 21px;
+	height: 20px;
+	background: url(../Image/spirites.fw.png) 0 -70px no-repeat;
+	vertical-align: middle;
+}
+.icon2 {
+	display: inline-block;
+	width: 21px;
+	height: 20px;
+	background: url(../Image/spirites.fw.png) 0 -90px no-repeat;
+	vertical-align: middle;
+}
+.icon3 {
+	display: inline-block;
+	width: 21px;
+	height: 20px;
+	background: url(../Image/spirites.fw.png) 0 -110px no-repeat;
+	vertical-align: middle;
+}
+.icon4 {
+	display: inline-block;
+	width: 21px;
+	height: 20px;
+	background: url(../Image/spirites.fw.png) 0 -130px no-repeat;
+	vertical-align: middle;
+}
+.icon5 {
+	display: inline-block;
+	width: 21px;
+	height: 20px;
+	background: url(../Image/spirites.fw.png) 0 -150px no-repeat;
+	vertical-align: middle;
+}
+.icon6 {
+	display: inline-block;
+	width: 21px;
+	height: 20px;
+	background: url(../Image/spirites.fw.png) 0 -170px no-repeat;
+	vertical-align: middle;
+}
+
+.ad {
+	width: 520px;
+	height: 210px;
+	margin-left: 11px;
+	background-color: #EBF0F6;
+}
+
+.message {
+	width: 230px;
+	height: 210px;
+}
+
+.message_top {
+	height: 95px;
+	border: 1px solid #DDDDDD;
+	background: #F7FAFF;
+	margin-bottom: 21px;
+}
+
+.message_top .fw {
+	font-weight: bold;
+	padding: 7px 0 0 18px;
+}
+
+.message_top i {
+	margin: 20px 10px 0 10px; 
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../Image/spirites.fw.png) 0 -190px no-repeat;
+}
+
+.message_top .cheap {
+	margin-top: 25px;
+	color: #717276;
+}
+
+.message_bottom {
+	height: 92px;
+	background: #F7F7F7;
+}
+
+.message_bottom .findMessage {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 11px;
+	color: #717276;
+}
+
+.message_bottom .phoneNum i {
+	width: 13px;
+	height: 17px;
+	display: inline-block;
+	background: url(../Image/spirites.fw.png) 0 -230px no-repeat;
+	vertical-align: middle;
+}
+.message_bottom .phoneNum {
+	margin-top: 10px;
+	text-align: center;
+	color: #3F9CE0;
+	font-size: 14px;
+}
+
+.message_bottom .btn {
+	width: 81px;
+	height: 23px;
+	display: inline-block;
+	background: url(../Image/spirites.fw.png) 0 -250px no-repeat;
+	margin: 9px 0 0 75px;
+}
+
+.material {
+	width: 950px;
+	height: 34px;
+	margin: 0 auto;
+	border-top: 2px solid #C3D7E4;
+	margin-top: 14px;
+	line-height: 34px;
+	background: #ECF1F7;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.product {
+	width: 970px;
+	height: 345px;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+.product .product_l {
+	width: 738px;
+	height: 345px;
+	border: 1px solid #D8D8D8;
+}
+
+.product .product_l_top {
+	height: 155px;
+	width: 712px;
+	padding: 17px 0 0 26px;
+}
+
+.product .p_l_t_product1 {
+	width: 350px;
+	height: 146px;
+}
+
+.product .buy {
+	width: 99px;
+	height: 143px;
+}
+
+.product .buy .product_l_img {
+	border: 1px solid #CACACA;
+	height: 100px;
+}
+
+.product .buy .product_l_img i {
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background: url(../Image/spirites.fw.png) 0 -273px no-repeat;
+	margin: 10px 4px 0 3px;
+}
+
+.product .buy .product_l_btn {
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.product .intro {
+	width: 250px;
+	height: 143px;
+}
+
+.product .intro .goodwife {
+	font-size: 14px;
+	padding: 10px 0 0 10px;
+}
+
+.product .intro .advantage {
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+
+.product .intro .price span{
+	color: red;
+}
+
+.product .intro .price i {
+	text-decoration: line-through;
+}
+
+.product .intro .price {
+	padding: 23px 0 0 11px;
+}
+
+.product .intro .sold {
+	font-size: 14px;
+	padding: 20px 0 0 11px;
+}
+
+.product .product_l_bottom {
+	height: 155px;
+	width: 712px;
+	padding: 17px 0 0 26px;
+}
+
+.product_l_line {
+	margin: 0 4px 0 4px;
+	border-top: 1px solid #CCC;
+}
+
+.product .product_r {
+	width: 220px;
+	height: 345px;
+	border: 1px solid #E0E6F0;
+}
+
+.product_r h2 {
+	height: 28px;
+	line-height: 28px;
+	padding-left: 15px;
+	border-bottom: 1px solid #E0E6F0;
+}
+
+.product .product_r ul {
+	padding-top: 11px;
+}
+
+.product .product_r li {
+	line-height: 23px;
+	padding-left: 26px;
+}
+
+.chair {
+	width: 970px;
+	height: 500px;
+	background-color: #EBF0F6;
+	margin: 0 auto;
+}
+
+.link {
+	width: 970px;
+	height: 103px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 3px solid #0A7EC3;
+	margin: 0 auto;
+	margin-top: 11px;
+	color: #666666;
+}
+
+.link .link_p1 {
+	margin-top: 30px;
+}
+
+.link .link_p2 {
+	margin-top: 14px;
+	margin-left: 61px;
+}
+
+.aboutUs {
+	height: 91px;
+	width: 970px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.aboutUs p {
+	margin-top: 14px;
+}
